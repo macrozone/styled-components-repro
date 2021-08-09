@@ -8,10 +8,10 @@ const TheExtendedComponent = dynamic(() => import( '../components/TheExtendedCom
 export default function Home() {
   return (
     <>
-    <p>Hello world</p>
-    <Link href="/otherpage"><a>Go to other page</a></Link>
+    <p>otherpage</p>
+    <Link href="/"><a>Go to home</a></Link>
+    <TheBaseComponent />
 
-    <TheExtendedComponent />
     </>
   )
 }
