@@ -1,7 +1,7 @@
 
 
 import Link from 'next/link'
-import TheExtendedComponent from '../components/TheExtendedComponent'
+import TheBaseComponent from '../components/TheBaseComponent'
 
 
 export default function Home() {
@@ -10,7 +10,7 @@ export default function Home() {
       <p>Hello world</p>
       <Link href="/otherpage"><a>Go to other page</a></Link>
 
-      <TheExtendedComponent />
+      <TheBaseComponent>I should be red</TheBaseComponent>
     </>
   )
 }
